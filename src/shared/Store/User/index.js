@@ -1,7 +1,7 @@
 import { observable, action } from 'mobx';
 import axios from 'axios';
 
-const axiosGitHubGraphQL = axios.create({
+const Axios = axios.create({
     baseURL: 'https://api.github.com/graphql',
     headers: {
         Authorization: `bearer ${process.env.TOKEN}`,
@@ -35,7 +35,7 @@ const query = (name) => `
 export default class UserStore {
     @observable user = {};
     @action addUser(name) {
-         return axiosGitHubGraphQL
+         return Axios
             .post('', { query: query(name)})
             .then(result => this.user = result.data.data.user);
     }

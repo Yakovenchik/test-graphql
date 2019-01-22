@@ -36,20 +36,21 @@ class User extends Component{
                 {user.login ?
                     <div>
                         <Card body>
-                            <CardImg src={user.avatarUrl}
-                                     alt="Card image cap"/>
+                            <CardImg
+                                src={user.avatarUrl}
+                                alt="Card image cap"/>
                             <CardBody>
                                 <CardTitle>{user.login}</CardTitle>
                                 <CardSubtitle>{user.url}</CardSubtitle>
                                 <CardSubtitle>{user.company}</CardSubtitle>
                                 <CardSubtitle>Last update: {user.updatedAt}</CardSubtitle>
-                                <CardText>{user.bio}</CardText>
+                                <CardText>Biography: {user.bio ? user.bio : 'empty'}</CardText>
                                 {user.repositories.edges.map(node =>
                                     (
                                         <ListGroup key={node.node.id}>
-                                            <ListGroupItem>
-                                                {node.node.name}
-                                            </ListGroupItem>
+                                            <Label>
+                                               Rep: {node.node.name}
+                                            </Label>
                                             <ListGroupItem>
                                                 description: {node.node.description ? node.node.description : 'empty'}
                                             </ListGroupItem>
