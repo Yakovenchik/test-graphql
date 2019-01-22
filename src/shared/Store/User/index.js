@@ -32,12 +32,13 @@ export default class UserStore {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                Authorization: `bearer 5e7db2832101195b4d519ce04738dac714f90bf9`,
+                Authorization: `bearer ${process.env.REACT_APP_TOKEN}`,
             },
             body: JSON.stringify({ query: query(name) }),
         })
             .then(res => res.json())
-            .then(res => !res.errors ? this.user = res.data.user : null);
+            .then(res => !res.errors ? this.user = res.data.user : null)
+            .catch(e => console.error(e));
     }
 
 }
