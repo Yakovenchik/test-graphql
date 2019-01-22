@@ -10,6 +10,7 @@ import {ListGroupItem, ListGroup, Card, CardImg, CardText, CardBody,
 class User extends Component{
      sendUser(name){
         const userStore = this.props.userStore;
+        console.log(process.env.TOKEN);
         if (!name) {
             alert('Input name')
             }else {
