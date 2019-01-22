@@ -32,7 +32,7 @@ export default class UserStore {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                Authorization: `bearer ${process.env.TOKEN}`,
+                Authorization: `bearer 5e7db2832101195b4d519ce04738dac714f90bf9`,
             },
             body: JSON.stringify({ query: query(name) }),
         })

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02550aa4-beaa-45c3-8962-994cb2003344" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/shared/Component/User/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Component/User/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/Store/User/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/Store/User/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/src/shared/Store/User/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+              <caret line="34" column="79" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -124,8 +123,8 @@
         <option value="$PROJECT_DIR$/config/webpack.config.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/yarn.lock" />
-        <option value="$PROJECT_DIR$/src/shared/Store/User/index.js" />
         <option value="$PROJECT_DIR$/src/shared/Component/User/index.js" />
+        <option value="$PROJECT_DIR$/src/shared/Store/User/index.js" />
       </list>
     </option>
   </component>
@@ -201,12 +200,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548172007128</updated>
       <workItem from="1548172009161" duration="15686000" />
-      <workItem from="1548191002822" duration="4606000" />
+      <workItem from="1548191002822" duration="4846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20292000" />
+    <option name="totallyTimeSpent" value="20532000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -372,7 +371,7 @@
     <entry file="file://$PROJECT_DIR$/src/shared/Store/User/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+          <caret line="34" column="79" selection-start-line="34" selection-start-column="79" selection-end-line="34" selection-end-column="79" />
         </state>
       </provider>
     </entry>
